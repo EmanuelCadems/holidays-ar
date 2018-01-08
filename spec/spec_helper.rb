@@ -1,5 +1,7 @@
 require "bundler/setup"
 require "holidays/ar"
+require 'webmock/rspec'
+require 'support/fake_feriados'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -10,5 +12,9 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  config.before(:each) do
+    stub_request(:any, /www.argentina.gob.ar/).to_rack(FakeFeriados)
   end
 end
