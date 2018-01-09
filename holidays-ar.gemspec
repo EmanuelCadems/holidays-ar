@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This gem obtains all holidays in Argentina}
   spec.description   = %q{Holidays of Argentina obtained from https://www.argentina.gob.ar/interior/feriados}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/EmanuelCadems/holidays-ar"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
