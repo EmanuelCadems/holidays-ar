@@ -25,8 +25,10 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
   l = Holidays::Ar::Loader.new(2018)
   l.exec
+```
 
 ## Development
 
