@@ -1,5 +1,8 @@
 # Holidays::Ar
 
+[![Build Status](https://travis-ci.org/EmanuelCadems/holidays-ar.svg?branch=master)](https://travis-ci.org/EmanuelCadems/holidays-ar)
+
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/holidays/ar`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
@@ -22,7 +25,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  l = Holidays::Ar::Loader.new(2018)
+  l.exec
 
 ## Development
 
@@ -32,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/holidays-ar.
+Bug reports and pull requests are welcome on GitHub at https://github.com/EmanuelCadems/holidays-ar.
 
 ## License
 
