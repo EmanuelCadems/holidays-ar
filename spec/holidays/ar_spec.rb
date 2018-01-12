@@ -1,5 +1,3 @@
-require 'date'
-
 RSpec.describe Holidays::Ar do
   it "has a version number" do
     expect(Holidays::Ar::VERSION).not_to be nil

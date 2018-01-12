@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    holidays-ar (0.1.0)
+    holidays-ar (0.1.1)
       nokogiri (= 1.8.1)
 
 GEM
